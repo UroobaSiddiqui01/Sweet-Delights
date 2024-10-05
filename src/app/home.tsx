@@ -22,8 +22,10 @@ export default function Home() {
   
         {/* Products Section */}
         <section className="py-10">
-          <div className="grid grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
             <div className="bg-white shadow-lg p-5 rounded-lg text-center">
+
               <Image
                 src="/chocolateD.jpeg"
                 alt="Classic Dips"
@@ -35,6 +37,7 @@ export default function Home() {
               <p className="text-gray-600">Try our timeless flavors.</p>
               <button className="mt-3 px-4 py-2 bg-pink-500 text-white rounded">Order</button>
             </div>
+
             <div className="bg-white shadow-lg p-5 rounded-lg text-center">
               <Image 
                 src="/pinkD.jpeg"
