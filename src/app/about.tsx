@@ -40,10 +40,7 @@ export default function About() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className=" bg-white shadow-md text-center text-pink-600">
-        <p>© 2024 Dippin Donuts. All rights reserved.</p>
-      </footer>
+      
     </div>
   );
 }

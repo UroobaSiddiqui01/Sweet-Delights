@@ -10,10 +10,10 @@ export default function Headers() {
                     <ul className="flex space-x-6 text-pink-600">
                         <li><Link href="#home">Home</Link></li>
                         <li><Link href="#about us">About Us</Link></li>
-                        <li><Link href="#">Order Online</Link></li>
-                        <li><Link href="#">Menu</Link></li>
-                        <li><Link href="#">Locations</Link></li>
-                        <li><Link href="#">Contact Us</Link></li>
+                        <li><Link href="#order online">Order Online</Link></li>
+                        <li><Link href="#menu">Menu</Link></li>
+                        <li><Link href="#locations">Locations</Link></li>
+                        <li><Link href="#contact">Contact Us</Link></li>
                     </ul>
                 </nav>
             </header>
