@@ -48,7 +48,7 @@ export default function Order() {
                 height={200}
                 className="mx-auto mb-4 w-80 h-80"
               />
-              <h3 className="text-xl font-bold">Season Dippin</h3>
+              <h3 className="text-xl font-bold">Season’ Dippin</h3>
               <p className="text-gray-600">Fresh seasonal flavors.</p>
               <button className="mt-3 px-4 py-2 bg-pink-500 text-white rounded">Add to Cart</button>
             </div>
