@@ -16,7 +16,7 @@ export default function Headers() {
             onClick={() => setMenuOpen(!menuOpen)}
           >
             <svg
-              className="w-6 h-6"
+              className="w-8 h-8"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -33,8 +33,8 @@ export default function Headers() {
         </div>
         {/* Navigation */}
         <nav className={`${menuOpen ? 'block' : 'hidden'} md:flex w-full md:w-auto`}>
-          <ul className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 text-pink-600 mt-4 md:mt-0">
-            <li><Link href="#home" className="hover:text-pink-500">Home</Link></li>
+          <ul className={`flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 text-pink-600 mt-4 md:mt-0 bg-white md:bg-transparent p-5 md:p-0 shadow-md md:shadow-none`} >
+            <li><Link href="/#home" className="hover:text-pink-500">Home</Link></li>
             <li><Link href="#about-us" className="hover:text-pink-500">About Us</Link></li>
             <li><Link href="#order-online" className="hover:text-pink-500">Order Online</Link></li>
             <li><Link href="#menu" className="hover:text-pink-500">Menu</Link></li>
