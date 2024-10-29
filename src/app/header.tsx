@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from 'react';
 import Link from 'next/link';
 
@@ -7,9 +9,10 @@ export default function Headers() {
   return (
     <div className="bg-pink-50 font-sans">
       {/* Header */}
-      <header className="flex flex-col md:flex-row justify-between items-center p-5 bg-white shadow-md">
+      <header className="flex flex-col md:flex-row justify-between items-center p-5 bg-white shadow-md w-full">
         <div className="flex justify-between items-center w-full md:w-auto">
           <h1 className="text-2xl md:text-3xl font-bold text-pink-600">Dippin’ Donuts</h1>
+
           {/* Hamburger Icon for Mobile */}
           <button
             className="md:hidden block text-pink-600 focus:outline-none"
@@ -31,9 +34,14 @@ export default function Headers() {
             </svg>
           </button>
         </div>
+
         {/* Navigation */}
-        <nav className={`${menuOpen ? 'block' : 'hidden'} md:flex w-full md:w-auto`}>
-          <ul className={`flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 text-pink-600 mt-4 md:mt-0 bg-white md:bg-transparent p-5 md:p-0 shadow-md md:shadow-none`} >
+        <nav
+          className={`${
+            menuOpen ? 'block' : 'hidden'
+          } md:flex w-full md:w-auto mt-4 md:mt-0`}
+        >
+          <ul className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 text-pink-600 bg-white md:bg-transparent shadow-md md:shadow-none rounded-lg md:rounded-none p-5 md:p-0">
             <li><Link href="/#home" className="hover:text-pink-500">Home</Link></li>
             <li><Link href="#about-us" className="hover:text-pink-500">About Us</Link></li>
             <li><Link href="#order-online" className="hover:text-pink-500">Order Online</Link></li>
@@ -46,4 +54,6 @@ export default function Headers() {
     </div>
   );
 }
+
+
 
