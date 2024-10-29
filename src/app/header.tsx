@@ -7,7 +7,7 @@ export default function Headers() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="bg-pink-50 font-sans max-w-screen mx-auto">
+    <div className="bg-pink-50 font-sans max-w-full mx-auto">
       {/* Header */}
       <header className="flex flex-col md:flex-row justify-between items-center p-5 bg-white shadow-md w-full">
         <div className="flex justify-between items-center w-full md:w-auto">
