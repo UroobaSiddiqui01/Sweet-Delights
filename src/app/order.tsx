@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Order() {
   return (
-    <div className="bg-pink-50 font-sans">
+    <div className="bg-pink-50 font-sans max-w-screen mx-auto">
       {/* Order Section */}
       <section id="order-online" className="py-10 sm:py-16 bg-pink-100">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">

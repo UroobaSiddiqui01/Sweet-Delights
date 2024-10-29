@@ -7,11 +7,11 @@ export default function Headers() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="bg-pink-50 font-sans">
+    <div className="bg-pink-50 font-sans max-w-screen mx-auto">
       {/* Header */}
       <header className="flex flex-col md:flex-row justify-between items-center p-5 bg-white shadow-md w-full">
         <div className="flex justify-between items-center w-full md:w-auto">
-          <h1 className="text-2xl md:text-3xl font-bold text-pink-600">Dippin’ Donuts</h1>
+          <h1 className="text-2xl md:text-3xl font-bold text-pink-600">Dippin’s Donuts</h1>
 
           {/* Hamburger Icon for Mobile */}
           <button
