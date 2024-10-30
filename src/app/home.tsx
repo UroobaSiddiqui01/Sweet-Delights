@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
     return (
-      <div className="bg-pink-50 font-sans max-w-full mx-auto">
+      <div className="bg-pink-50 font-sans max-w-screen-2xl mx-auto">
         {/* Header */}
   
         {/* Hero Section */}

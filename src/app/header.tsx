@@ -7,9 +7,9 @@ export default function Headers() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="bg-pink-50 font-sans max-w-full mx-auto">
+    <div className="bg-pink-50 font-sans max-w-screen-2xl mx-auto">
       {/* Header */}
-      <header className="flex flex-col md:flex-row justify-between items-center p-5 bg-white shadow-md w-full">
+      <header className="flex flex-col md:flex-row justify-between items-center p-5 bg-white shadow-md max-w-screen-2xl mx-auto">
         <div className="flex justify-between items-center w-full md:w-auto">
           <h1 className="text-2xl md:text-3xl font-bold text-pink-600">Dippin’s Donuts</h1>
 

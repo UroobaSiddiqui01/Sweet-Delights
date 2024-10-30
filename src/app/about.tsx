@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function About() {
   return (
-    <div className="bg-pink-50 font-sans max-w-full mx-auto">
+    <div className="bg-pink-50 font-sans max-w-screen-2xl mx-auto">
       {/* About Section */}
       <section id="about-us" className="text-center py-10 sm:py-16 bg-gradient-to-b from-pink-200 to-pink-50">
         <h2 className="text-3xl sm:text-4xl font-bold text-pink-700">About Dippin Donuts</h2>
